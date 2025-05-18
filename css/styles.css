@@ -1,12 +1,7 @@
-.fancy-body,
-.fancy-body * {
+.fancy-body {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
-
-.fancy-body {
-  padding: 60px;
+  padding:  0px, 60px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgba(51, 60, 77, 1);
 }
@@ -59,14 +54,14 @@
   width: 100%;
 }
 
-.fancy-body .dark-part .contacts-table th {
+.fancy-body .dark-part .contacts-table .th {
   text-align: left;
   height: 40px;
   min-width: 100px;
   color: #7b7f86;
 }
 
-.fancy-body .dark-part .contacts-table a {
+.fancy-body .dark-part .contacts-table .a {
   color: white;
   text-decoration: none;
   display: flex;
@@ -93,12 +88,12 @@
   gap: 0 10px
 }
 
-.fancy-body .light-part h1 .first-name {
+.fancy-body .light-part .h1 .first-name {
   font-size: 36px;
   word-break: break-word;
 }
 
-.fancy-body .light-part h1 .last-name {
+.fancy-body .light-part .h1 .last-name {
   font-weight: normal;
   font-size: 36px;
 }
@@ -109,9 +104,7 @@
   color: rgba(51, 60, 77, 0.6);
 }
 
-.fancy-body .bio-container,
-.fancy-body .skills-container,
-.fancy-body .hobbies-container {
+.fancy-body .bio-container, .skills-container, .hobbies-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -120,31 +113,31 @@
 
 .fancy-body .bio-container h2,
 .fancy-body .skills-container h2,
-.fancy-body .hobbies-container h2 {
+.fancy-body .hobbies-container {
   display: flex;
   gap: 30px;
   align-items: center;
 }
 
-.fancy-body .bio-container h2 span,
-.fancy-body .skills-container h2 span,
-.fancy-body .hobbies-container h2 span {
+.fancy-body .bio-container .h2 span,
+.fancy-body .skills-container .h2 span,
+.fancy-body .hobbies-container .h2 span {
   min-width: max-content;
 }
 
-.fancy-body .bio-container h2:after,
-.fancy-body .skills-container h2:after,
-.fancy-body .hobbies-container h2:after {
+.fancy-body .bio-container .h2:after,
+.fancy-body .skills-container .h2:after,
+.fancy-body .hobbies-container .h2:after {
   content: '';
   height: 1px;
   background-color: rgba(51, 60, 77, 0.3);
   width: 100%;
 }
 
-.fancy-body .skills-container ol {
+.fancy-body .skills-container .ol {
   padding-left: 20px;
 }
 
-.fancy-body .hobbies-container ul {
+.fancy-body .hobbies-container .ul {
   padding-left: 15px;
 }
